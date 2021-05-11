@@ -59,7 +59,7 @@ nav.nav-bar {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url("./assets/img/circles.png");
+  background-image: url("./img/circles.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ nav.nav-bar {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url("./assets/img/logos.png");
+  background-image: url("./img/logos.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ nav.nav-bar {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url("./assets/img/squares.png");
+  background-image: url("./img/squares.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,19 +142,19 @@ nav.nav-bar {
 }
 
 .project-container .project-a-img {
-  background-image: url("./assets/img/project-a.png");
+  background-image: url("./img/project-a.png");
 }
 
 .project-container .project-b-img {
-  background-image: url("./assets/img/project-b.png");
+  background-image: url("./img/project-b.png");
 }
 
 .project-container .project-c-img {
-  background-image: url("./assets/img/project-c.png");
+  background-image: url("./img/project-c.png");
 }
 
 .project-container .project-d-img {
-  background-image: url("./assets/img/project-d.png");
+  background-image: url("./img/project-d.png");
 }
 
 .project-container .project-img {
@@ -211,19 +211,19 @@ footer .logo {
 }
 
 footer .linkedin {
-  background-image: url("./assets/img/linkedin.png");
+  background-image: url("./img/linkedin.png");
   margin-right: 25px;
   margin-top: 10px;
 }
 
 footer .twitter {
-  background-image: url("./assets/img/twitter.png");
+  background-image: url("./img/twitter.png");
   margin-left: 25px;
   margin-top: 10px;
 }
 
 footer .github {
-  background-image: url("./assets/img/github.png");
+  background-image: url("./img/github.png");
   margin-top: 10px;
 }
 
