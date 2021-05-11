@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --primary-color: #3edbf0;
+  --secondary-color: #c0fefc;
+  --just-grey: #b0b0b0;
+  --just-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav.nav-bar {
+  width: 100vw;
+  height: 50px;
+  min-width: 320px;
+}
+
+.header-section {
+  width: 100vw;
+  min-width: 320px;
+  height: 150px;
+  margin: 100px 0;
+}
+
+.title-container {
+  max-width: 320px;
+  min-width: 320px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 28px 60px;
+}
+
+.header-section h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.header-section .strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.header-section .circles {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url("/assets/img/circles.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 100px auto;
+}
+
+.skills {
+  width: 320px;
+  min-width: 320px;
+  margin: 300px auto 0;
+}
+
+.skills h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.skills h2 {
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin: 25px auto;
+}
+
+.skills .logos {
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url("/assets/img/logos.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.title-container ul {
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 130px;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.squares {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url("/assets/img/squares.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 100px auto 0;
+}
+
+.projects {
+  width: 320px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.projects h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.project-container {
+  width: 200px;
+  height: 150px;
+  margin: 25px auto;
+}
+
+.project-container .project-a-img {
+  background-image: url("/assets/img/project-a.png");
+}
+
+.project-container .project-b-img {
+  background-image: url("/assets/img/project-b.png");
+}
+
+.project-container .project-c-img {
+  background-image: url("/assets/img/project-c.png");
+}
+
+.project-container .project-d-img {
+  background-image: url("/assets/img/project-d.png");
+}
+
+.project-container .project-img {
+  width: 200px;
+  height: 150px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 25px auto;
+}
+
+.project-container .project-img:hover {
+  cursor: pointer;
+
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  margin-top: 150px;
+  padding: 25px auto;
+  background-color: var(--primary-color);
+}
+
+footer .container {
+  width: 100vw;
+  height: 25px;
+}
+
+footer h2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+footer .social-container {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer .logo {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+footer .linkedin {
+  background-image: url("/assets/img/linkedin.png");
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+footer .twitter {
+  background-image: url("/assets/img/twitter.png");
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+footer .github {
+  background-image: url("/assets/img/github.png");
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-a-b-container, .projects-c-d-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-a, .project-c {
+    margin-right: 50px;
+  }
+
+  .project-b, .project-d {
+    margin-left: 50px;
+  }
+}
+
+/* Desktop 
+
+  -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+  :hover
+  -webkit-filter: blur(0);
+	filter: blur(0);
+
+/*
