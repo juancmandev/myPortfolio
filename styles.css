@@ -59,7 +59,7 @@ nav.nav-bar {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url("https://github.com/WhenixD/myPortfolio/blob/main/img/circles.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/839960174952972299/unknown.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ nav.nav-bar {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url("/img/logos.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/840046647233085465/unknown.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ nav.nav-bar {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url("/img/squares.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/840312450884435978/unknown.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,19 +142,19 @@ nav.nav-bar {
 }
 
 .project-container .project-a-img {
-  background-image: url("/img/project-a.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/840369147024375828/unknown.png");
 }
 
 .project-container .project-b-img {
-  background-image: url("/img/project-b.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/840386601010987069/unknown.png");
 }
 
 .project-container .project-c-img {
-  background-image: url("/img/project-c.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/840387164390293544/unknown.png");
 }
 
 .project-container .project-d-img {
-  background-image: url("/img/project-d.png");
+  background-image: url("https://cdn.discordapp.com/attachments/706951069799940169/840388035626532914/unknown.png");
 }
 
 .project-container .project-img {
@@ -211,19 +211,19 @@ footer .logo {
 }
 
 footer .linkedin {
-  background-image: url("/img/linkedin.png");
+  background-image: url("https://www.flaticon.com/svg/vstatic/svg/1384/1384088.svg?token=exp=1620763612~hmac=469e777298b9d645e88b3995b9abc5da");
   margin-right: 25px;
   margin-top: 10px;
 }
 
 footer .twitter {
-  background-image: url("/img/twitter.png");
+  background-image: url("https://www.flaticon.com/svg/vstatic/svg/466/466963.svg?token=exp=1620763768~hmac=616fc07eaaef23d2a487def358e94298");
   margin-left: 25px;
   margin-top: 10px;
 }
 
 footer .github {
-  background-image: url("/img/github.png");
+  background-image: url("https://www.flaticon.com/svg/vstatic/svg/1051/1051377.svg?token=exp=1620763707~hmac=e6075ee4650c8591f8dd7b5dffe3a52c");
   margin-top: 10px;
 }
 
