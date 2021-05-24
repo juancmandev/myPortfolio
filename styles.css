@@ -211,19 +211,19 @@ footer .logo {
 }
 
 footer .linkedin {
-  background-image: url("https://www.flaticon.com/svg/vstatic/svg/1384/1384088.svg?token=exp=1620763612~hmac=469e777298b9d645e88b3995b9abc5da");
+  background-image: url("https://iconoir.com/source/icons/linkedin.svg");
   margin-right: 25px;
   margin-top: 10px;
 }
 
-footer .twitter {
-  background-image: url("https://www.flaticon.com/svg/vstatic/svg/466/466963.svg?token=exp=1620763768~hmac=616fc07eaaef23d2a487def358e94298");
-  margin-left: 25px;
+footer .github {
+  background-image: url("https://iconoir.com/source/icons/github-outline.svg");
   margin-top: 10px;
 }
 
-footer .github {
-  background-image: url("https://www.flaticon.com/svg/vstatic/svg/1051/1051377.svg?token=exp=1620763707~hmac=e6075ee4650c8591f8dd7b5dffe3a52c");
+footer .twitter {
+  background-image: url("https://iconoir.com/source/icons/twitter.svg");
+  margin-left: 25px;
   margin-top: 10px;
 }
 
